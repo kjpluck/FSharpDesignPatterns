@@ -6,6 +6,11 @@ module Duck =
         | RubberDuck
         | Decoy
 
+    let display = function
+        | Mallard -> printfn "I am a Mallard"
+        | RubberDuck -> printfn "I am a Rubber Duck"
+        | Decoy -> printfn "I am a Decoy"
+
     let quack = function
         | Mallard -> printfn "QUACK"
         | RubberDuck -> printfn "SQUEAK"

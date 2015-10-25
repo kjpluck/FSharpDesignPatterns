@@ -6,11 +6,16 @@ open SimUDuck.Duck
 [<EntryPoint>]
 let main argv = 
     
-
+    display Mallard
     quack Mallard
-    quack Decoy
-
     fly Mallard
+
+    display Decoy
+    quack Decoy
     fly Decoy
+
+    display RubberDuck
+    quack RubberDuck
     fly RubberDuck
+    
     0
